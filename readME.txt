@@ -1,25 +1,21 @@
-Gestione file (salvataggio dei ticket in un file/database)
+File Management (saving tickets in a file/database)
 
-Eccezioni (try-except) per gestire input errati
+Exceptions (try-except) to handle incorrect input
 
-Automazione processi (aggiornamento dello stato dei ticket)
+Process Automation (updating ticket status)
 
-Logging (import logging) per tracciare eventi e cambiamenti
+Logging (import logging) to track events and changes
 
-Database SQLite per memorizzare i ticket e lo stato
+SQLite Database to store tickets and their status
 
-📝 Obiettivo:
-Creare un sistema che:
-✅ Permetta a un utente di creare un ticket scegliendo un job type
-✅ Generi un ticket ID univoco
-✅ Consenta all'amministratore di visualizzare e aggiornare lo stato del ticket
-✅ Memorizzi i ticket in un database SQLite
-✅ Gestisca errori ed eccezioni per evitare crash
+📝 Objective: Create a system that: 
+✅ Allows a user to create a ticket by choosing a job type
+✅ Generates a unique ticket ID
+✅ Allows the administrator to view and update the ticket status
+✅ Stores tickets in an SQLite database
+✅ Handles errors and exceptions to avoid crashes
 
-
-Possibili miglioramenti
-Aggiungere un'interfaccia grafica con Tkinter o Flask
-
-Inviare email di notifica quando un ticket cambia stato
-
-Gestire utenti con livelli di accesso (Admin/User)
+Possible improvements:
+Add a graphical interface with Tkinter or Flask
+Send email notifications when a ticket status changes
+Manage users with access levels (Admin/User)

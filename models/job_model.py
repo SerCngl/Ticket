@@ -13,3 +13,6 @@ class Job_type(Enum):
 class JobType:
     id: int
     job_type: Job_type
+    
+    
+
